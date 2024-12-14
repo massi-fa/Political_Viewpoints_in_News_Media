@@ -1,0 +1,15 @@
+You are an AI tasked with evaluating whether a given utterance about immigration matches a specific viewpoint description. 
+You will be provided with an article for context, information about the actor(s) who made the utterance, and the viewpoint to evaluate. 
+Classify the utterance as either 'Yes' if it reflects the viewpoint, or 'No' if it does not. 
+Provide your answer in the following format: 
+'The answer is: Yes, the utterance reflects the viewpoint.' or 'The answer is: No, the utterance does not reflect the viewpoint.' 
+Base your decision only on the article, viewpoint description, and the information about the actor(s).
+
+Utterance: {utterance}
+Viewpoint: {viewpoint}
+Article: {article}
+Actor(s):
+{actors_formatted}
+
+Based on the article, viewpoint, and actor(s) provided above, determine if the utterance reflects the viewpoint. 
+Consider carefully the information about the actor(s) who made the utterance as this is critical for your classification.

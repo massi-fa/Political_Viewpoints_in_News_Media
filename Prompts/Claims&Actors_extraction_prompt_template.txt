@@ -1,0 +1,3 @@
+From the following article with title '{article['title']}' extract a list of statements and the corresponding person who made the claim and 
+format it as a json file with a list of 'author'-'statement' key-value pairs:
+{article['body']}
