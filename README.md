@@ -49,9 +49,11 @@ The dataset includes the following columns:
 
 This folder contains the templates for the prompts used in different stages of the process:
 
-- **Claims&Actors_extraction_prompt_template**: Template used for extracting claims and associated actors from articles.
-- **text_prompt_template**: Template used for fine-tuning and inference tasks related to claim classification.
-- **KG_prompt_template**: Template used for integrating knowledge graphs into the model's inference process.
-- **Text+KG_prompt_template**: Combined template that integrates both text and knowledge graph information for model fine-tuning and inference.
+- **Claims&Actors_extraction_prompt_template**: A template used for extracting claims and associated actors from articles.
+- **text_prompt_template**: A template used for fine-tuning and inference tasks related to claim classification.
+- **KG_prompt_template**: A template used for fine-tuning and inference tasks that integrate knowledge graphs into the model's process.
+- **Text+KG_prompt_template**: A combined template that integrates both text and knowledge graph information for model fine-tuning and inference.
+
+
 
 ---
