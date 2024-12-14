@@ -26,9 +26,9 @@ This folder contains the dataset of 402 claims extracted from various articles. 
 
 This folder contains the dataset used for model training, validation, and testing. The dataset is split as follows:
 
-- **Training set**: 2,303 claims
-- **Validation set**: 336 claims
-- **Test set**: 669 claims
+- **Training set**: 2,303 claims (70% of the dataset)
+- **Validation set**: 336 claims (10% of the dataset)
+- **Test set**: 669 claims (20% of the dataset)
 
 The dataset includes the following columns:
 
